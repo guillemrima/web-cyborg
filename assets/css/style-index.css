@@ -130,3 +130,68 @@ header{
 .image__cover img{
     width: 500px;
 }
+
+/*Container SERVICIOS*/
+
+.container__servicios{
+    padding-top: 50px;
+}
+
+.servicios{
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding: 0px 20px;
+}
+
+.servicios__hero{
+    max-width: 800px;
+    margin: auto;
+}
+
+.servicios__hero p{
+    color: var(--color_text_primary);
+    letter-spacing: 10px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.servicios__hero h1{
+    font-size: 50px;
+    font-weight: 600;
+    color: var(--color_text_secundary);
+}
+
+.container__card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.card__servicios{
+    max-width:350px;
+    padding: 60px 40px;
+    border: 1px solid #e6e6e6;
+    border-radius: 20px;
+    margin: 10px;
+    transition: all 300ms;
+}
+
+.card__servicios:hover{
+    border: 1px solid transparent;
+    box-shadow: var(--box_shadow);
+}
+
+.card__servicios h1{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.card__servicios p{
+    margin-top: 20px;
+}
+
+.card__servicios img{
+    width: 70px;
+}
