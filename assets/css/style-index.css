@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+:root{
+    --color_text_primary: #4aa7b6;
+    --color_text_secundary: #242025;
+    --color_text_tertiary:#b2dcdc;
+    --main_color-primary: #129493;
+    --main-color-secundary: #84749c;
+    --background-color: #ffffff;
+    --box_shadow: 0px 6px 50px -20px rgb(0,0,0,0.2);  
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    z-index: 100;
+}
+
+.container__header{
+    padding: 0px 20px;
+    max-width: 1200px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 100%;
+}
+
+.logo img{
+    width: 200px;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+}
+
+.menu nav{
+    margin: 0px 20px;
+}
+.menu ul{
+    list-style: none;
+    display: flex;
+}
+
+.menu ul li{
+    margin: 20px 40px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.menu ul li a{
+    color: var(--color_text_secundary);
+}
+
+.menu ul li a:hover{
+    color: var(--main_color-primary);
+}
+
+.btn{
+    display: block;
+    width: 200px;
+    border: 2px solid;
+    border-color: var(--main_color-primary);
+    margin: 0px 20px;
+    padding: 8px 20px;
+    text-align: center;
+    border-radius: 8px;
+    color:var(--color_text_secundary);
+    transition: all 350ms;
+}
+
+.btn:hover{
+    color: white;
+    background-color: var(--main_color-primary);
+}
+
+.container__cover{
+    padding-top: 100px;
+    background: rgb(255,255,255);
+    background: linear-gradient(152deg, rgba(255,255,255,1) 0%, rgba(167,219,219,1) 51%, rgba(18,148,147,1) 100%);
+}
+
+.cover{
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+.text__cover{
+    width: 100%;
+    padding-right: 100px;
+}
+
+.text__cover h1{
+    font-size: 50px;
+    color: var(--color_text_secundary);
+}
+
+.text__cover p{
+    font-size: 20px;
+    color: var(--main-color-secundary);
+}
+
+.btn__hero{
+    margin-top: 20px;
+}
+.image__cover{
+    width: 100%;
+}
+
+.image__cover img{
+    width: 500px;
+}
