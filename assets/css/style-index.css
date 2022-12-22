@@ -19,6 +19,21 @@
     --box_shadow: 0px 6px 50px -20px rgb(0,0,0,0.2);  
 }
 
+body{
+    position: relative;
+}
+
+.decoration__body{
+    top: 45%;
+    position: absolute;
+    z-index: -1;
+    max-height: 1000px;
+    
+}
+.decoration__body img{
+    width: 100%;
+    height: 100%;
+}
 header{
     width: 100%;
     height: 70px;
@@ -141,13 +156,18 @@ width: auto;
 
 .container__servicios{
     padding-top: 100px;
+    width: 100%;
+    background-color:transparent;
 }
+
+
 
 .servicios{
     max-width: 1200px;
     margin: auto;
     text-align: center;
     padding: 0px 20px;
+    
 }
 
 .servicios__hero{
@@ -182,6 +202,8 @@ width: auto;
     border-radius: 20px;
     margin: 10px;
     transition: all 300ms;
+    background-color: var(--background-color);
+    z-index: 99;
 }
 
 .card__servicios:hover{
@@ -202,14 +224,21 @@ width: auto;
     width: 70px;
 }
 
+/*CONTAINER SOBRE */
+
 .container__sobre{
-    padding-top: 100px ;
+    padding-top: 100px;
 }
 
 .sobre{
     max-width: 1200px;
     margin: auto;
+    background-color: rgba(255, 255, 255, 0);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 20px;
 }
+
 .sobre__descripcion {
     width: 100%;
     margin-bottom: 100px;
