@@ -22,6 +22,8 @@ header{
     height: 100px;
     position: fixed;
     z-index: 100;
+    background-color: transparent;
+    backdrop-filter: blur(5px);
 }
 
 .container__header{
