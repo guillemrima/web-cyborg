@@ -94,6 +94,7 @@ header{
     padding-top: 100px;
     background: rgb(255,255,255);
     background: linear-gradient(152deg, rgba(255,255,255,1) 0%, rgba(167,219,219,1) 51%, rgba(18,148,147,1) 100%);
+    padding-bottom: 80px;
 }
 
 .cover{
@@ -194,4 +195,20 @@ header{
 
 .card__servicios img{
     width: 70px;
+}
+
+.container__sobre{
+    padding-top: 100px ;
+}
+
+.sobre{
+    max-width: 1200px;
+    margin: auto;
+}
+.sobre__descripcion {
+    width: 100%;
+}
+
+.sobre__descripcion h2{
+    text-align: center;
 }
