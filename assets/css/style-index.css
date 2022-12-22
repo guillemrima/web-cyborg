@@ -102,10 +102,10 @@ header{
 .cover{
     max-width: 1200px;
     margin: auto;
-    margin-top: 100px;
+    margin-top: 0px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items:flex-end;
     padding: 0px 20px;
 }
 
