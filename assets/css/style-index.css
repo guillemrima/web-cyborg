@@ -6,7 +6,9 @@
     font-family: 'Poppins', sans-serif;
     text-decoration: none;
 }
-
+::-webkit-scrollbar{
+    display: none;
+}
 :root{
     --color_text_primary: #4aa7b6;
     --color_text_secundary: #242025;
@@ -79,7 +81,7 @@ header{
     width: 200px;
     border: 2px solid;
     border-color: var(--main_color-primary);
-    margin: 0px 20px;
+    margin: 0px 50px;
     padding: 8px 20px;
     text-align: center;
     border-radius: 8px;
